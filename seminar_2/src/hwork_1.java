@@ -1,6 +1,3 @@
-import java.util.Objects;
-
-
 /**
  * Дана строка sql-запроса "select * from students where ".
  * Сформируйте часть WHERE этого запроса, используя StringBuilder.
@@ -11,6 +8,9 @@ import java.util.Objects;
  * Выходная строка:
  * select * from students where name = "Ivanov" and country = "Russia" and city = "Moscow"
  */
+
+import java.util.Objects;
+
 public class hwork_1 {
     public static final String SQL = "select * from students where ";
     public static final String IN_STR = "{\"name\":\"Ivanov\", \"country\":\"Russia\", \"city\":\"Moscow\", \"age\":\"null\"} ";
